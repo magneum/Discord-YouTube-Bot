@@ -37,9 +37,6 @@
 
 # 📂 CӨMMΛNDS
 ```sh
-📌 - *DYNO = Will be asked when deploying and you can 
-                    keep any command prefix as per your needs!
-
 •♪•♪𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀•♪•♪
 • /yt url or song_name
 ```
