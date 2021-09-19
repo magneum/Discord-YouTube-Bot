@@ -1,10 +1,10 @@
 {
-  "name": "youtube-downloader",
-  "version": "3.0.0",
-  "description": "A simple code used to download music by YouTube in mp3 format.",
-  "main": "index.js",
+  "name": "discord_youtube_bot",
+  "version": "1.0.5",
+  "description": "Discord Bot to download YouTube Music!",
+  "main": "nodemon YouTube_Scrape.js",
   "scripts": {
-    "test": "nodemon YouTube.js"
+    "test": "nodemon YouTube_Scrape.js"
   },
   "dependencies": {
     "discord-ytdl-core": "^4.0.7",
@@ -16,6 +16,6 @@
     "nodemon": "^2.0.12",
     "rimraf": "^3.0.2",
     "scrape-yt": "^1.4.1",
-    "spotify-url-info": "^1.4.0"
+    "youtubei": "^0.0.1-rc.23"
   }
 }
