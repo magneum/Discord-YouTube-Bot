@@ -13,6 +13,7 @@
     "ffmpeg": "0.0.4",
     "ffmpeg-static": "^4.2.7",
     "fs": "0.0.1-security",
+    "nodejs": "^0.0.0",
     "nodemon": "^2.0.12",
     "rimraf": "^3.0.2",
     "scrape-yt": "^1.4.1",
