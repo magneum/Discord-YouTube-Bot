@@ -2,9 +2,9 @@
   "name": "discord_youtube_bot",
   "version": "1.0.5",
   "description": "Discord Bot to download YouTube Music!",
-  "main": "nodemon YouTube_Scrape.js",
+  "main": "YouTube.js",
   "scripts": {
-    "test": "nodemon YouTube_Scrape.js"
+    "test": "nodemon YouTube.js"
   },
   "dependencies": {
     "discord-ytdl-core": "^4.0.7",
@@ -16,7 +16,7 @@
     "nodejs": "^0.0.0",
     "nodemon": "^2.0.12",
     "rimraf": "^3.0.2",
-    "scrape-yt": "^1.4.1",
+    "spotify-url-info": "^2.2.3",
     "youtubei": "^0.0.1-rc.23"
   }
 }
