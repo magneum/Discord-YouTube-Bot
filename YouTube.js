@@ -11,108 +11,160 @@ const { createWriteStream } = require("fs");
 const { Client } = require("youtubei");
 const ᴠᴏɪᴅɪᴄ = new Client();
 console.clear();
-// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
 const ʏᴏᴜʟɪꜱᴛᴘᴀᴛᴛᴇʀɴ = /^.*(list=)([^#\&\?]*).*/gi;
 const ʏᴏᴜɢᴇᴛᴘᴀᴛᴛᴇʀɴ = /^(https?:\/\/)?(www\.)?(m\.)?(youtube\.com|youtu\.?be)\/.+$/gi;
-// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
 if (ʙᴏᴛꜰɪx === undefined) {
-    console.log('𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰 |>••••••••••••••••••••••••••\n\nPrefix is undefined')
+    console.log('>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <\n\nPrefix is undefined')
     return;
 }
 if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
-    console.log('𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰 |>••••••••••••••••••••••••••\n\nYouTubeTok is undefined')
+    console.log('>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <\n\nYouTubeTok is undefined')
     return;
 }
-// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
-ʜʏᴘᴇʏᴏᴜᴛᴜʙᴇ.on("ready",
-    () => {
-        console.clear();
-        ʜʏᴘᴇʏᴏᴜᴛᴜʙᴇ.user.setActivity(`${ʙᴏᴛꜰɪx}yt ⭕️`,
-            { type: 'WATCHING' });
-        console.log(`
+ʜʏᴘᴇʏᴏᴜᴛᴜʙᴇ.on("ready", () => {
+    console.clear();
+    ʜʏᴘᴇʏᴏᴜᴛᴜʙᴇ.user.setActivity(`${ʙᴏᴛꜰɪx}yt ⭕️`,
+        { type: 'WATCHING' });
+    console.log(`
 𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰 |>••••••••••••••••••••••••••
 |
 |⭕️••  Bot_Status : 𝗬𝗼𝘂𝗧𝘂𝗯𝗲-𝗠𝘂𝘀𝗶𝗰 𝚒𝚜 𝙾𝚗𝚕𝚒𝚗𝚎 ! 
 |⭕️••  Check Discord for: 🔊 ${ʙᴏᴛꜰɪx}yt   
 |
 𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰 |>••••••••••••••••••••••••••`
-        );
-    });
-// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
+    );
+});
 ʜʏᴘᴇʏᴏᴜᴛᴜʙᴇ.on("message", async message => {
-    // ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
     if (message.author.bot)
         return;
-    // ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================   
+    try {
+        message.delete()
+    }
+    catch (err) {
+        console.error(err)
+    }
     if (message.content.startsWith(ʙᴏᴛꜰɪx + "yt")) {
         let ᴀʀɢꜱ = message.content.split(' ').slice(1);
-        // ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
         if (!message.content.startsWith(ʙᴏᴛꜰɪx + "yt") && ʏᴏᴜɢᴇᴛᴘᴀᴛᴛᴇʀɴ.test(ᴀʀɢꜱ[0])) {
-            message.channel.send(`
-${message.author}
-**• ⚠️WARNING:** Please use **${ʙᴏᴛꜰɪx}yt YouTube Url**`).catch(console.error);
+            const embed1 = new Discord.MessageEmbed()
+                .setColor(10038562)
+                .setTitle(">   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <")
+                .setAuthor("HypeVoidSoul")
+                .setDescription(`${message.author}\n\n
+**• ⚠️WARNING⚠️** 
+Please use **${ʙᴏᴛꜰɪx}yt YouTube Url**
+`)
+                .setImage("https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                .setThumbnail("https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                .setFooter("••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <••", "https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                
+            message.channel.send(embed1).catch(console.error);
             return;
         }
-        // ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
         if (ʏᴏᴜʟɪꜱᴛᴘᴀᴛᴛᴇʀɴ.test(ᴀʀɢꜱ[0])) {
-            message.channel.send(`
-${message.author}
-**• ⚠️WARNING:** Please send **YouTube   _Single/Non-Playlist_   Urls Only**`).catch(console.error);
+            const embed2 = new Discord.MessageEmbed()
+                .setColor(10038562)
+                .setTitle(">   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <")
+                .setAuthor("HypeVoidSoul")
+                .setDescription(`${message.author}\n\n
+**• ⚠️WARNING⚠️** 
+Please send **YouTube   _Single/Non-Playlist_   Urls Only**
+`)
+                .setImage("https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                .setThumbnail("https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                .setFooter("••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <••", "https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                
+            message.channel.send(embed2).catch(console.error);
             return;
         }
-        // ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
-        if (!ᴀʀɢꜱ[0])
-            return message.channel.send(`
-${message.author}
-𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰 |>••••••••••••••••••••••••••
+        if (!ᴀʀɢꜱ[0]) {
+            const embed3 = new Discord.MessageEmbed()
+                .setColor(10038562)
+                .setTitle(">   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <")
+                .setAuthor("HypeVoidSoul")
+                .setDescription(`${message.author}\n\n
+**• ⚠️WARNING⚠️** 
+Please enter the **YouTube URL** of a song !
 
-**• ⚠️WARNING:** Please enter the **YouTube URL** of a song !
-**• EX:** ${ʙᴏᴛꜰɪx}yt https://www.youtube\.com|youtu`).catch(console.error);
-        // ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
+**• EX =** ${ʙᴏᴛꜰɪx}yt https://www.youtube\.com
+`)
+                .setImage("https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                .setThumbnail("https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                .setFooter("••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <••", "https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                
+            message.channel.send(embed3).catch(console.error);
+            return;
+        }
+
         let ʏᴏᴜᴛᴀᴋᴇʀ;
         let ʏᴏᴜꜱᴛʀᴇᴀᴍᴇʀ;
-        // ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
         try {
             ʏᴏᴜꜱᴛʀᴇᴀᴍᴇʀ = ᴠᴏɪᴅᴅᴡɴ(ᴀʀɢꜱ.join(" "), {
                 encoderArgs: ['-af', 'dynaudnorm=f=200'], fmt: 'mp3', opusEncoded: false
             });
             ʏᴏᴜᴛᴀᴋᴇʀ = await ᴠᴏɪᴅɪᴄ.search(ᴀʀɢꜱ.join(" "));
         } catch (e) {
-            return message.channel.send(`
-${message.author}
-𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰 |>••••••••••••••••••••••••••
-
-**• ⚠️WARNING:** I didn't find anything for: **${ᴀʀɢꜱ.join(" ")}**`).catch(console.error);
+            const embed4 = new Discord.MessageEmbed()
+                .setColor(10038562)
+                .setTitle(">   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <")
+                .setAuthor("HypeVoidSoul")
+                .setDescription(`${message.author}\n\n
+**• ⚠️WARNING⚠️**
+I didn't find anything for: **${ᴀʀɢꜱ.join(" ")}**
+`)
+                .setImage("https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                .setThumbnail("https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                .setFooter("••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <••", "https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                
+            message.channel.send(embed4).catch(console.error);
+            return;
         }
-        // ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
         try {
-            message.channel.send(`
-${message.author}
-𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰 |>••••••••••••••••••••••••••
+            const embed5 = new Discord.MessageEmbed()
+                .setColor(10038562)
+                .setTitle(">   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <")
+                .setAuthor("HypeVoidSoul")
+                .setDescription(`${message.author}\n\n
+•:shaved_ice:**SongTitle**:shaved_ice:•
+_${ʏᴏᴜᴛᴀᴋᴇʀ[0].title}_
 
-•:shaved_ice:**SongTitle:** _${ʏᴏᴜᴛᴀᴋᴇʀ[0].title}_
-•:chains:**SongUrl:**   _${ᴀʀɢꜱ}_
+•:chains:**SongUrl**:chains:•
+_${ᴀʀɢꜱ}_
 
-Please Wait till 𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰 finishes downloading...`).catch(console.error);
+Please Wait till 𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰 finishes downloading...
+`)
+                .setImage("https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                .setThumbnail("https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                .setFooter("••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <••", "https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                
+            message.channel.send(embed5).catch(console.error);
             ʏᴏᴜꜱᴛʀᴇᴀᴍᴇʀ.pipe(createWriteStream(__dirname + `/YTubeTemp/${ʏᴏᴜᴛᴀᴋᴇʀ[0].title}.mp3`)).on('finish', () => {
                 try {
-                    // ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
                     try {
                         message.delete()
                     } catch (e) {
                         console.log(e)
                     }
-                    // ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
-                    message.channel.send(`𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰 |>••••••••••••••••••••••••••
-•:shaved_ice:**SongTitle:** _${ʏᴏᴜᴛᴀᴋᴇʀ[0].title}_
-•:chains:**SongUrl:**   _${ᴀʀɢꜱ}_`,
-                        new Discord.MessageAttachment(__dirname + `/YTubeTemp/${ʏᴏᴜᴛᴀᴋᴇʀ[0].title}.mp3`, `${ʏᴏᴜᴛᴀᴋᴇʀ[0].title}.mp3`)
+                    const embed6 = new Discord.MessageEmbed()
+                        .setColor(10038562)
+                        .setTitle(">   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <")
+                        .setAuthor("HypeVoidSoul")
+                        .setDescription(`${message.author}\n\n
+•:shaved_ice:**SongTitle**:shaved_ice:•
+_${ʏᴏᴜᴛᴀᴋᴇʀ[0].title}_
+
+•:chains:**SongUrl**:chains:•
+_${ᴀʀɢꜱ}_
+`)
+                        .setImage("https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                        .setThumbnail("https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                        .setFooter("••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <••", "https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png")
+                        
+                    message.channel.send(embed6).catch(console.error);
+                    message.channel.send(new Discord.MessageAttachment(__dirname + `/YTubeTemp/${ʏᴏᴜᴛᴀᴋᴇʀ[0].title}.mp3`, `${ʏᴏᴜᴛᴀᴋᴇʀ[0].title}.mp3`)
                     )
                 } catch (e) {
-                    return message.channel.send(`
-${message.author}
-𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰 |>••••••••••••••••••••••••••
-
+                    return message.channel.send(`${message.author}\n\n\n
 **• 🔥ERROR:** 
 I didn't manage to send the music... 
 
@@ -121,12 +173,8 @@ Or
 Maybe I don't have the required permissions to upload this type of file on this server...`).catch(console.error);
                 }
             })
-            // ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
         } catch (e) {
-            return message.channel.send(`
-${message.author}
-𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰 |>••••••••••••••••••••••••••
-
+            return message.channel.send(`${message.author}\n\n\n
 **• 🔥ERROR:**
 I didn't find anything for : **${ᴀʀɢꜱ.join(" ")}**
 
@@ -134,7 +182,6 @@ Maybe it is impossible to retrieve this music...`).catch(console.error);
         }
     }
 });
-// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
 ʜʏᴘᴇʏᴏᴜᴛᴜʙᴇserver()
 ʜʏᴘᴇʏᴏᴜᴛᴜʙᴇ.login(ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ).catch(console.error);
 // ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
