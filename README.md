@@ -4,16 +4,24 @@
 [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)<img align="centre" src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg" alt="HypeVoidSoul"/><img align="centre" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"/>
 # 🎧『 ᴅɪꜱᴄᴏʀᴅ YouTube Bot 』🎧
 <p align="centre"><img  width="100%" height="100%" img src="https://github.com/HypeVoidSoul/Discord_YouTube_Bot/blob/main/YouTubeMain.png" /></p>
-<p align="centre"><img  width="100%" height="100%" img src="https://github.com/HypeVoidSoul/Discord_YouTube_Bot/blob/main/YouTubeLock.JPG" /></p>
+<p align="centre"><img  width="50%" height="50%" img src="https://github.com/HypeVoidSoul/Discord_YouTube_Bot/blob/main/YouTubeLock.JPG" /></p>
 
 
 # ❓ WΉY MΛDΣ ƬΉIS BӨƬ?   
 ```sh
-—••÷=======[ 🕊NOIR🕊 ]=======÷•—
+••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <••
 
-    💻 𝗪𝗵𝗮𝘁 𝗖𝗮𝗻 𝗕𝗼𝘁 𝗗𝗼???
-❄️ 𝘗𝘭𝘢𝘺 𝘢𝘯𝘺 𝘮𝘶𝘴𝘪𝘤 𝘪𝘯 𝘺𝘰𝘶𝘳 discord channel. 𝘠𝘰𝘶 𝘸𝘪𝘭𝘭 𝘩𝘢𝘷𝘦 𝘵𝘰 make bot admin 𝘵𝘰 𝘶𝘴𝘦 𝘵𝘩𝘪𝘴 𝘣𝘰𝘵 𝘰𝘳 𝘨𝘦𝘵 𝘦𝘳𝘳𝘰𝘳𝘴.
 
+        💻 𝗪𝗵𝗮𝘁 𝗖𝗮𝗻 𝗕𝗼𝘁 𝗗𝗼???
+❄️ 𝘛𝘩𝘪𝘴 𝘪𝘴 𝘢 𝘥𝘪𝘴𝘤𝘰𝘳𝘥 𝘠𝘰𝘶𝘛𝘶𝘣𝘦 𝘮𝘶𝘴𝘪𝘤 𝘥𝘰𝘸𝘯𝘭𝘰𝘢𝘥𝘦𝘳 𝘣𝘰𝘵 𝘶𝘴𝘪𝘯𝘨 𝘋𝘪𝘴𝘤𝘰𝘳𝘥𝘫𝘴. 
+❄️ 𝘠𝘰𝘶 𝘸𝘪𝘭𝘭 𝘩𝘢𝘷𝘦 𝘵𝘰 make bot admin 𝘵𝘰 𝘶𝘴𝘦 𝘵𝘩𝘪𝘴 𝘣𝘰𝘵 𝘰𝘳 𝘨𝘦𝘵 𝘦𝘳𝘳𝘰𝘳𝘴.
+
+
+For Now This bot has been hosted in Repl.it.
+I will soon shit it to Heroku or Railway.
+You can still use it's dockerfile to run it manually.
+
+••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <••
 ```
 
 # 〽️ MΣΣƬ US ӨЯ CΉΣCK ӨƬΉΣЯ BӨƬS   
