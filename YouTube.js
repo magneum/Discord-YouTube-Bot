@@ -1,4 +1,18 @@
 // ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
+`
+➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕
+                        GNU GENERAL PUBLIC LICENSE 
+                            Version 3, 29 June 2007
+                Copyright (C) 2007 Free Software Foundation
+            Everyone is permitted to 𝗰𝗼𝗽𝘆 𝗮𝗻𝗱 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲 verbatim copies
+                of this license document, 𝗯𝘂𝘁 𝗰𝗵𝗮𝗻𝗴𝗶𝗻𝗴 𝗶𝘁 𝗶𝘀 𝗻𝗼𝘁 𝗮𝗹𝗹𝗼𝘄𝗲𝗱.
+                        ••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <•• 
+                    Discord YouTube Downloader Bot 
+            has been licensed under GNU General Public License
+        𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 (𝐂) 𝟐𝟎𝟐𝟏 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝗦𝗼𝘂𝗹 | 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝗟𝗮𝗯 | 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝘀
+➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕
+`
+// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
 console.clear();
 require('dotenv').config()
 const ʙᴏᴛꜰɪx = process.env.BotFix;
@@ -9,10 +23,40 @@ const ʜʏᴘᴇʏᴏᴜᴛᴜʙᴇ = new Discord.Client();
 const ᴠᴏɪᴅᴅᴡɴ = require("discord-ytdl-core");
 const { createWriteStream } = require("fs");
 const { Client } = require("youtubei");
+// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
+`
+➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕
+                        GNU GENERAL PUBLIC LICENSE 
+                            Version 3, 29 June 2007
+                Copyright (C) 2007 Free Software Foundation
+            Everyone is permitted to 𝗰𝗼𝗽𝘆 𝗮𝗻𝗱 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲 verbatim copies
+                of this license document, 𝗯𝘂𝘁 𝗰𝗵𝗮𝗻𝗴𝗶𝗻𝗴 𝗶𝘁 𝗶𝘀 𝗻𝗼𝘁 𝗮𝗹𝗹𝗼𝘄𝗲𝗱.
+                        ••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <•• 
+                    Discord YouTube Downloader Bot 
+            has been licensed under GNU General Public License
+        𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 (𝐂) 𝟐𝟎𝟐𝟏 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝗦𝗼𝘂𝗹 | 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝗟𝗮𝗯 | 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝘀
+➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕
+`
+// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
 const ᴠᴏɪᴅɪᴄ = new Client();
 console.clear();
 const ʏᴏᴜʟɪꜱᴛᴘᴀᴛᴛᴇʀɴ = /^.*(list=)([^#\&\?]*).*/gi;
 const ʏᴏᴜɢᴇᴛᴘᴀᴛᴛᴇʀɴ = /^(https?:\/\/)?(www\.)?(m\.)?(youtube\.com|youtu\.?be)\/.+$/gi;
+// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
+`
+➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕
+                        GNU GENERAL PUBLIC LICENSE 
+                            Version 3, 29 June 2007
+                Copyright (C) 2007 Free Software Foundation
+            Everyone is permitted to 𝗰𝗼𝗽𝘆 𝗮𝗻𝗱 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲 verbatim copies
+                of this license document, 𝗯𝘂𝘁 𝗰𝗵𝗮𝗻𝗴𝗶𝗻𝗴 𝗶𝘁 𝗶𝘀 𝗻𝗼𝘁 𝗮𝗹𝗹𝗼𝘄𝗲𝗱.
+                        ••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <•• 
+                    Discord YouTube Downloader Bot 
+            has been licensed under GNU General Public License
+        𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 (𝐂) 𝟐𝟎𝟐𝟏 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝗦𝗼𝘂𝗹 | 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝗟𝗮𝗯 | 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝘀
+➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕
+`
+// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
 if (ʙᴏᴛꜰɪx === undefined) {
     console.log('>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <\n\nPrefix is undefined')
     return;
@@ -21,6 +65,21 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
     console.log('>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <\n\nYouTubeTok is undefined')
     return;
 }
+// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
+`
+➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕
+                        GNU GENERAL PUBLIC LICENSE 
+                            Version 3, 29 June 2007
+                Copyright (C) 2007 Free Software Foundation
+            Everyone is permitted to 𝗰𝗼𝗽𝘆 𝗮𝗻𝗱 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲 verbatim copies
+                of this license document, 𝗯𝘂𝘁 𝗰𝗵𝗮𝗻𝗴𝗶𝗻𝗴 𝗶𝘁 𝗶𝘀 𝗻𝗼𝘁 𝗮𝗹𝗹𝗼𝘄𝗲𝗱.
+                        ••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <•• 
+                    Discord YouTube Downloader Bot 
+            has been licensed under GNU General Public License
+        𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 (𝐂) 𝟐𝟎𝟐𝟏 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝗦𝗼𝘂𝗹 | 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝗟𝗮𝗯 | 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝘀
+➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕
+`
+// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
 ʜʏᴘᴇʏᴏᴜᴛᴜʙᴇ.on("ready", () => {
     console.clear();
     ʜʏᴘᴇʏᴏᴜᴛᴜʙᴇ.user.setActivity(`${ʙᴏᴛꜰɪx}yt ⭕️`,
@@ -34,6 +93,21 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰 |>••••••••••••••••••••••••••`
     );
 });
+// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
+`
+➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕
+                        GNU GENERAL PUBLIC LICENSE 
+                            Version 3, 29 June 2007
+                Copyright (C) 2007 Free Software Foundation
+            Everyone is permitted to 𝗰𝗼𝗽𝘆 𝗮𝗻𝗱 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲 verbatim copies
+                of this license document, 𝗯𝘂𝘁 𝗰𝗵𝗮𝗻𝗴𝗶𝗻𝗴 𝗶𝘁 𝗶𝘀 𝗻𝗼𝘁 𝗮𝗹𝗹𝗼𝘄𝗲𝗱.
+                        ••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <•• 
+                    Discord YouTube Downloader Bot 
+            has been licensed under GNU General Public License
+        𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 (𝐂) 𝟐𝟎𝟐𝟏 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝗦𝗼𝘂𝗹 | 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝗟𝗮𝗯 | 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝘀
+➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕
+`
+// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
 ʜʏᴘᴇʏᴏᴜᴛᴜʙᴇ.on("message", async message => {
     if (message.author.bot)
         return;
@@ -182,6 +256,20 @@ Maybe it is impossible to retrieve this music...`).catch(console.error);
         }
     }
 });
+// ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
+`
+➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕
+                        GNU GENERAL PUBLIC LICENSE 
+                            Version 3, 29 June 2007
+                Copyright (C) 2007 Free Software Foundation
+            Everyone is permitted to 𝗰𝗼𝗽𝘆 𝗮𝗻𝗱 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲 verbatim copies
+                of this license document, 𝗯𝘂𝘁 𝗰𝗵𝗮𝗻𝗴𝗶𝗻𝗴 𝗶𝘁 𝗶𝘀 𝗻𝗼𝘁 𝗮𝗹𝗹𝗼𝘄𝗲𝗱.
+                        ••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <•• 
+                    Discord YouTube Downloader Bot 
+            has been licensed under GNU General Public License
+        𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 (𝐂) 𝟐𝟎𝟐𝟏 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝗦𝗼𝘂𝗹 | 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝗟𝗮𝗯 | 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝘀
+➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕
+`
 ʜʏᴘᴇʏᴏᴜᴛᴜʙᴇserver()
 ʜʏᴘᴇʏᴏᴜᴛᴜʙᴇ.login(ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ).catch(console.error);
 // ===========================================𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰==================================================
