@@ -3,7 +3,8 @@
 |🔥🔥|======|ΉYPΣ_VӨID_LΛB|======|🔥🔥|
 [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)<img align="centre" src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg" alt="HypeVoidSoul"/><img align="centre" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"/>
 # 🎧『 ᴅɪꜱᴄᴏʀᴅ YouTube Bot 』🎧
-<p align="centre"><img  width="100%" height="100%" img src="https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png" /></p>
+<p align="centre"><img  width="100%" height="100%" img src="https://github.com/HypeVoidSoul/Discord_YouTube_Bot/blob/main/YouTube.JPG" /></p>
+<p align="centre"><img  width="100%" height="100%" img src="https://github.com/HypeVoidSoul/Discord_YouTube_Bot/blob/main/YouTubeLock.JPG" /></p>
 
 
 # ❓ WΉY MΛDΣ ƬΉIS BӨƬ?   
