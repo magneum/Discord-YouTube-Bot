@@ -1,72 +1,46 @@
-[![discord-youtube-to-mp3](https://github-readme-stats.vercel.app/api/pin/?username=navaneethkm004&repo=discord-youtube-to-mp3&theme=dark)](https://github.com/navaneethkm004/discord-youtube-to-mp3)<br/>
+# ⚠️⚠️⚠️⚠️ WORK IN PROGRESS⚠️⚠️⚠️⚠️
 
-Looking for a code to download your music ? This fully open source code is made for you!
+|🔥🔥|======|ΉYPΣ_VӨID_LΛB|======|🔥🔥|
+[![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)<img align="centre" src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg" alt="HypeVoidSoul"/><img align="centre" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"/>
+# 🎧『 ᴅɪꜱᴄᴏʀᴅ YouTube Bot 』🎧
+<p align="centre"><img  width="100%" height="100%" img src="https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png" /></p>
 
-- No advertising
-- Simple and fast
-- No API key required
 
-### ⚡ Installation
+# ❓ WΉY MΛDΣ ƬΉIS BӨƬ?   
+```sh
+—••÷=======[ 🕊NOIR🕊 ]=======÷•—
 
-[![Run on Repl.it](https://repl.it/badge/github/navaneethkm004/discord-youtube-to-mp3)](https://repl.it/github/navaneethkm004/discord-youtube-to-mp3)
-
-Well, let's start by downloading the code.
-Go to the folder `config` then the file `bot.json`.
-For the bot to be able to start, please complete the file with your credentials as follows :
-
-```js
-{
-    "token": "XXX",
-    "prefix": "!"
-}
-```
-
-Reminder :
-
-- `token`, the token of the bot available on the [Discord developers](https://discordapp.com/developers/applications) section.
-- `prefix`, the prefix that will be set to use the bot.
-
-To install modules, go to the console and type this : `npm i`.
-
-To start the bot :
+    💻 𝗪𝗵𝗮𝘁 𝗖𝗮𝗻 𝗕𝗼𝘁 𝗗𝗼???
+❄️ 𝘗𝘭𝘢𝘺 𝘢𝘯𝘺 𝘮𝘶𝘴𝘪𝘤 𝘪𝘯 𝘺𝘰𝘶𝘳 discord channel. 𝘠𝘰𝘶 𝘸𝘪𝘭𝘭 𝘩𝘢𝘷𝘦 𝘵𝘰 make bot admin 𝘵𝘰 𝘶𝘴𝘦 𝘵𝘩𝘪𝘴 𝘣𝘰𝘵 𝘰𝘳 𝘨𝘦𝘵 𝘦𝘳𝘳𝘰𝘳𝘴.
 
 ```
-#With Node
-node main.js
 
-#With pm2
-pm2 start main.js --name "YoutubeDownloader"
+# 〽️ MΣΣƬ US ӨЯ CΉΣCK ӨƬΉΣЯ BӨƬS   
+- [![Generic badge](https://img.shields.io/badge/YouTube_𝘐𝘯𝘷𝘪𝘵𝘦_𝘓𝘪𝘯𝘬-green.svg)](https://discord.com/api/oauth2/authorize?client_id=887674319470198814&permissions=8&scope=bot)
+𝙳𝚒𝚛𝚎𝚌𝚝𝚕𝚢 𝚞𝚜𝚎 𝚃𝚑𝚎 𝙱𝚘𝚝 𝚒𝚗 Discord
+- [![Generic badge](https://img.shields.io/badge/𝙷𝚢𝚙𝚎𝚅𝚘𝚒𝚍𝙱𝚘𝚝-Vïå_ßð†-orange.svg)](https://t.me/HypeVoidBot) 𝘛𝘶𝘳𝘯 𝘰𝘯 𝘣𝘰𝘵 𝘪𝘯 𝘵𝘦𝘭𝘦𝘨𝘳𝘢𝘮 𝘢𝘯𝘥 𝘵𝘺𝘱𝘦 /us
+
+
+# 📂 CӨMMΛNDS
+```sh
+•♪•♪𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀•♪•♪
+• /yt url or song_name
 ```
 
-If you see this : `I'm ready !`, it means that your robot has started up !
+# 📜 LICΣПSΣ    
+-  ᴅɪꜱᴄᴏʀᴅ YouTubeBot 𝘪𝘴 𝘭𝘪𝘤𝘦𝘯𝘴𝘦𝘥 𝘶𝘯𝘥𝘦𝘳 𝘵𝘩𝘦 𝘎𝘕𝘜 𝘎𝘦𝘯𝘦𝘳𝘢𝘭 𝘗𝘶𝘣𝘭𝘪𝘤 𝘓𝘪𝘤𝘦𝘯𝘴𝘦 𝘷3.0 [GNU V3.0](LICENSE)
 
-### 🎵 Commands
-
+```sh
+➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕
+                        GNU GENERAL PUBLIC LICENSE 
+                            Version 3, 29 June 2007
+                Copyright (C) 2007 Free Software Foundation
+            Everyone is permitted to 𝗰𝗼𝗽𝘆 𝗮𝗻𝗱 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝘁𝗲 verbatim copies
+                of this license document, 𝗯𝘂𝘁 𝗰𝗵𝗮𝗻𝗴𝗶𝗻𝗴 𝗶𝘁 𝗶𝘀 𝗻𝗼𝘁 𝗮𝗹𝗹𝗼𝘄𝗲𝗱.
+                        —••÷[🕊NOIR🕊]÷••— 
+                        Discord Music player Bot 
+            has been licensed under GNU General Public License
+        𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 (𝐂) 𝟐𝟎𝟐𝟏 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝗦𝗼𝘂𝗹 | 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝗟𝗮𝗯 | 𝗛𝘆𝗽𝗲𝗩𝗼𝗶𝗱𝘀
+➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕➕     
 ```
-download, download music by name.
-linkdownload, download music by YouTube link.
-```
-
-Examples (download) :
-
-```
-#YouTube name
-<prefix>dl PETIT BISCUIT - Sunset Lover
-
-#Spotify URL
-<prefix>dl https://open.spotify.com/track/3WRQUvzRvBDr4AxMWhXc5E?si=iJP3hgxbRoqiqiOnnfBR7w
-```
-
-Example (linkdownload) :
-
-```
-#YouTube URL
-<prefix>ldl https://youtu.be/wuCK-oiE3rM
-```
-
-I'm not responsible if a music doesn't want to download or if your IP is blacklisted on YouTube ⛔
-
-This is used with [discord.js](https://www.npmjs.com/package/discord.js), [discord-ytdl-core](https://www.npmjs.com/package/discord-ytdl-core), [spotify-url-info](https://www.npmjs.com/package/spotify-url-info) and [scrape-yt](https://www.npmjs.com/package/scrape-yt).
-
-If you have any questions/problems do not hesitate to open a issue !
-Don't forget to add a star to the project or leave a little mark of this Github on your bot if you use the source code !
+|🔥🔥|======|ΉYPΣ_VӨID_LΛB|======|🔥🔥|
