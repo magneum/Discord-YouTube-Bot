@@ -19,7 +19,7 @@
 
 For Now This bot has been hosted in Repl.it.
 I will soon shit it to Heroku or Railway.
-You can still use it's dockerfile to run it manually.
+You can still use dockerfile to run it manually.
 
 ••>   𝗬𝗼𝘂𝗧𝘂𝗯𝗲⭕️𝗠𝘂𝘀𝗶𝗰   <••
 ```
