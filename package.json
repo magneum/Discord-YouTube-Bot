@@ -4,12 +4,13 @@
   "description": "Discord Bot to download YouTube Music!",
   "main": "YouTube.js",
   "scripts": {
-    "test": "nodemon YouTube.js"
+    "test": "YouTube.js"
   },
   "dependencies": {
     "discord-ytdl-core": "^4.0.7",
     "discord.js": "^12.3.1",
     "dotenv": "^10.0.0",
+    "express": "^4.17.1",
     "ffmpeg": "0.0.4",
     "ffmpeg-static": "^4.2.7",
     "fs": "0.0.1-security",
