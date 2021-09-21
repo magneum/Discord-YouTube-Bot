@@ -1,6 +1,6 @@
 {
   "name": "youtube_downloader",
-  "version": "9",
+  "version": "9.0.0",
   "description": "Discord Bot to download YouTube Music!",
   "main": "YouTube.js",
   "scripts": {
