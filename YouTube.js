@@ -219,7 +219,7 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 			}
 		}
 		// ===========================================•YouTube🔺Downloader ©️•==================================================
-		if (!message.content.startsWith(ʙᴏᴛꜰɪx + `yt https://yout`) && message.channel.name === `yt🔺downloader`) {
+		if (!message.content.startsWith(ʙᴏᴛꜰɪx + `yt https://www.youtube`) && message.channel.name === `yt🔺downloader`) {
 			const embedThanks = new Discord.MessageEmbed()
 				.setColor(10038562)
 				.setTitle(`•YouTubeDownloader by HypeVoidLab •`)
