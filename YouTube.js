@@ -87,7 +87,7 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 			.setAuthor(`⚜️HypeVoidSoul`)
 			.setDescription(`
 ---------------------|🔺|---------------------            
-❤️‍🔥 **ʜᴇʏ theʀᴇ ʏᴏᴜᴛᴜʙᴇ ʟᴏᴠᴇʀꜱ !**
+❤️‍🔥 **Hey there ʏᴏᴜᴛᴜʙᴇ lovers !**
 •|  _I got you all covered with direct download music from ʏᴏᴜᴛᴜʙᴇ._
 
 :candy:**ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅ** 
@@ -126,8 +126,8 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 			.delete()
 			.catch(console.error);
 		// ===========================================•YouTube🔺Downloader ©️•==================================================
-		if (message.content.startsWith(ʙᴏᴛꜰɪx + `yt`) && message.channel.name !== `yt⭕downloader`) {
-			if (message.guild.channels.cache.find(channel => channel.name === `yt⭕downloader`)) {
+		if (message.content.startsWith(ʙᴏᴛꜰɪx + `yt`) && message.channel.name !== `yt🔺downloader`) {
+			if (message.guild.channels.cache.find(channel => channel.name === `yt🔺downloader`)) {
 				const embedfactor = new Discord.MessageEmbed()
 					.setColor(10038562)
 					.setTitle(`•YouTubeDownloader by HypeVoidLab •`)
@@ -137,7 +137,7 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 **⚠️WARNING⚠️** 
 **User:** ${message.author}
 ---------------------|🔺|---------------------\n
-•|  _Please use the channel **yt⭕downloader** for any ʏᴏᴜᴛᴜʙᴇ download_`)
+•|  _Please use the channel **yt🔺downloader** for any ʏᴏᴜᴛᴜʙᴇ download_`)
 					.setImage(`https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png`)
 					.setThumbnail(`https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png`)
 					.setFooter(`🔺-----------|     ©️YouTube🔺Downloader`,
@@ -147,7 +147,7 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 					.catch(console.error);
 				return;
 			}
-			if (message.guild.channels.cache.find(channel => channel.name !== `yt⭕downloader`)) {
+			if (message.guild.channels.cache.find(channel => channel.name !== `yt🔺downloader`)) {
 				const embedfactor = new Discord.MessageEmbed()
 					.setColor(10038562)
 					.setTitle(`•YouTubeDownloader by HypeVoidLab •`)
@@ -157,8 +157,8 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 **⚠️WARNING⚠️** 
 **User:** ${message.author}
 ---------------------|🔺|---------------------\n
-•|  _Please use the channel **yt⭕downloader** for any ʏᴏᴜᴛᴜʙᴇ download._
-•|  _Text channel **yt⭕downloader** is not present._
+•|  _Please use the channel **yt🔺downloader** for any ʏᴏᴜᴛᴜʙᴇ download._
+•|  _Text channel **yt🔺downloader** is not present._
 ⚠️ _Please ᴀꜱᴋ the **ᴀᴅᴍɪɴꜱ/ᴍᴏᴅᴇʀꜱ** to make one with proper permissions._`)
 					.setImage(`https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png`)
 					.setThumbnail(`https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png`)
@@ -180,7 +180,7 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 					.setAuthor(`⚜️HypeVoidSoul`)
 					.setDescription(`
 𝗗𝗲𝗮𝗿 **ADMIN** 
-•|  _ᴀ channel ɴᴀᴍᴇ yt⭕downloader has been successfully created._
+•|  _ᴀ channel ɴᴀᴍᴇ yt🔺downloader has been successfully created._
 •|  _Please use the channel for any ʏᴏᴜᴛᴜʙᴇ download._`)
 					.setImage(`https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png`)
 					.setThumbnail(`https://i.postimg.cc/cJYg7gnT/teahub-io-2048x1152-wallpaper-for-youtube-307808.png`)
@@ -189,7 +189,7 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 				message.channel
 					.send(embedcheck1)
 					.catch(console.error);
-				message.guild.channels.create('yt⭕downloader', {
+				message.guild.channels.create('yt🔺downloader', {
 					type: 'GUILD_TEXT',
 					permissionOverwrites: [{
 						id: message.guild.roles.everyone
@@ -205,7 +205,7 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 ---------------------|🔺|---------------------
 𝗗𝗲𝗮𝗿 **ADMIN** 
 ---------------------|🔺|---------------------\n
-•|  _ᴀ channel ɴᴀᴍᴇ yt⭕downloader could not be created._
+•|  _ᴀ channel ɴᴀᴍᴇ yt🔺downloader could not be created._
 •|  𝗣𝗹𝗲𝗮𝘀𝗲 𝗴𝗶𝘃𝗲 𝗺𝗲 𝘁𝗵𝗲𝘀𝗲 𝗽𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻𝘀:
 =𝘔𝘢𝘯𝘢𝘨𝘦𝘊𝘩𝘢𝘯𝘯𝘦𝘭
 =𝘚𝘦𝘯𝘥𝘔𝘦𝘴𝘴𝘢𝘨𝘦𝘴
@@ -223,14 +223,14 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 			}
 		}
 		// ===========================================•YouTube🔺Downloader ©️•==================================================
-		if (!message.content.startsWith(ʙᴏᴛꜰɪx + `yt https://yout`) && message.channel.name === `yt⭕downloader`) {
+		if (!message.content.startsWith(ʙᴏᴛꜰɪx + `yt https://yout`) && message.channel.name === `yt🔺downloader`) {
 			const embedThanks = new Discord.MessageEmbed()
 				.setColor(10038562)
 				.setTitle(`•YouTubeDownloader by HypeVoidLab •`)
 				.setAuthor(`⚜️HypeVoidSoul`)
 				.setDescription(`
 ---------------------|🔺|---------------------
-❤️‍🔥 **ʜᴇʏ theʀᴇ ʏᴏᴜᴛᴜʙᴇ ʟᴏᴠᴇʀ !**
+❤️‍🔥 **Hey there ʏᴏᴜᴛᴜʙᴇ ʟᴏᴠᴇʀ !**
 ---------------------|🔺|---------------------\n
 **⚠️WARNING⚠️** 
 •|  _Please use ${ʙᴏᴛꜰɪx}yt **YouTube Url**_
@@ -249,7 +249,7 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 			return;
 		}
 		// ===========================================•YouTube🔺Downloader ©️•==================================================
-		if (message.content.startsWith(ʙᴏᴛꜰɪx + `yt`) && message.channel.name === `yt⭕downloader`) {
+		if (message.content.startsWith(ʙᴏᴛꜰɪx + `yt`) && message.channel.name === `yt🔺downloader`) {
 			let ᴀʀɢꜱ = message.content.split(` `).slice(1);
 			if (
 				!message.content.startsWith(ʙᴏᴛꜰɪx + `yt`) &&
