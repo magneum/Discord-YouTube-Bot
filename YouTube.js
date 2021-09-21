@@ -85,8 +85,7 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 			.setColor(10038562)
 			.setTitle(`•YouTubeDownloader by HypeVoidLab •`)
 			.setAuthor(`⚜️HypeVoidSoul`)
-			.setDescription(`
----------------------|🔺|---------------------            
+			.setDescription(`       
 ❤️‍🔥 **Hey there ʏᴏᴜᴛᴜʙᴇ lovers !**
 •|  _I got you all covered with direct download music from ʏᴏᴜᴛᴜʙᴇ._
 
@@ -133,7 +132,6 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 					.setTitle(`•YouTubeDownloader by HypeVoidLab •`)
 					.setAuthor(`⚜️HypeVoidSoul`)
 					.setDescription(`
----------------------|🔺|---------------------
 **⚠️WARNING⚠️** 
 **User:** ${message.author}
 ---------------------|🔺|---------------------\n
@@ -153,7 +151,6 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 					.setTitle(`•YouTubeDownloader by HypeVoidLab •`)
 					.setAuthor(`⚜️HypeVoidSoul`)
 					.setDescription(`
----------------------|🔺|---------------------
 **⚠️WARNING⚠️** 
 **User:** ${message.author}
 ---------------------|🔺|---------------------\n
@@ -202,7 +199,6 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 					.setTitle(`•YouTubeDownloader by HypeVoidLab •`)
 					.setAuthor(`⚜️HypeVoidSoul`)
 					.setDescription(`
----------------------|🔺|---------------------
 𝗗𝗲𝗮𝗿 **ADMIN** 
 ---------------------|🔺|---------------------\n
 •|  _ᴀ channel ɴᴀᴍᴇ yt🔺downloader could not be created._
@@ -229,7 +225,6 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 				.setTitle(`•YouTubeDownloader by HypeVoidLab •`)
 				.setAuthor(`⚜️HypeVoidSoul`)
 				.setDescription(`
----------------------|🔺|---------------------
 ❤️‍🔥 **Hey there ʏᴏᴜᴛᴜʙᴇ ʟᴏᴠᴇʀ !**
 ---------------------|🔺|---------------------\n
 **⚠️WARNING⚠️** 
@@ -265,7 +260,6 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 						.setTitle(`•YouTubeDownloader by HypeVoidLab •`)
 						.setAuthor(`⚜️HypeVoidSoul`)
 						.setDescription(`
----------------------|🔺|---------------------
 **⚠️WARNING⚠️** 
 **User:** ${message.author}
 ---------------------|🔺|---------------------\n
@@ -296,7 +290,6 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 						.setTitle(`•YouTubeDownloader by HypeVoidLab •`)
 						.setAuthor(`⚜️HypeVoidSoul`)
 						.setDescription(`
----------------------|🔺|---------------------
 **⚠️WARNING⚠️** 
 **User:** ${message.author}
 ---------------------|🔺|---------------------\n
@@ -329,7 +322,6 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 						.setTitle(`•YouTubeDownloader by HypeVoidLab •`)
 						.setAuthor(`⚜️HypeVoidSoul`)
 						.setDescription(`
----------------------|🔺|---------------------
 **⚠️WARNING⚠️** 
 **User:** ${message.author}
 ---------------------|🔺|---------------------\n
@@ -374,7 +366,6 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 						.setTitle(`----> •YouTube🔺Downloader ©️• <----`)
 						.setAuthor(`⚜️HypeVoidSoul`)
 						.setDescription(`
----------------------|🔺|---------------------
 **⚠️WARNING⚠️** 
 **User:** ${message.author}
 ---------------------|🔺|---------------------\n
@@ -405,7 +396,6 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 					.setTitle(`----> •YouTube🔺Downloader ©️• <----`)
 					.setAuthor(`⚜️HypeVoidSoul`)
 					.setDescription(`
----------------------|🔺|---------------------
 **⚠️WARNING⚠️** 
 **User:** ${message.author}
 ---------------------|🔺|---------------------\n
@@ -438,7 +428,6 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 								.setTitle(`----> •YouTube🔺Downloader ©️• <----`)
 								.setAuthor(`⚜️HypeVoidSoul`)
 								.setDescription(`
----------------------|🔺|---------------------
 **⚠️WARNING⚠️** 
 **User:** ${message.author}
 ---------------------|🔺|---------------------\n
@@ -469,7 +458,6 @@ if (ʏᴏᴜᴛᴜʙᴇᴛᴏᴋ === undefined) {
 								.setTitle(`----> •YouTube🔺Downloader ©️• <----`)
 								.setAuthor(`⚜️HypeVoidSoul`)
 								.setDescription(`
----------------------|🔺|---------------------
 **🔥ERROR**
 **User:** ${message.author}
 ---------------------|🔺|---------------------\n
@@ -498,7 +486,6 @@ _${DevLog}_`)
 					.setTitle(`----> •YouTube🔺Downloader ©️• <----`)
 					.setAuthor(`⚜️HypeVoidSoul`)
 					.setDescription(`
----------------------|🔺|---------------------
 **🔥ERROR**
 **User:** ${message.author}
 ---------------------|🔺|---------------------\n
